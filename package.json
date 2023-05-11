@@ -1,0 +1,23 @@
+{
+  "name": "markdown-resume-builder",
+  "version": "1.0.0",
+  "description": "Build an html resume from a markdown file",
+  "scripts": {
+    "watch": "node watch.js",
+    "build": "node build-once.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulllama/markdown-resume-builder.git"
+  },
+  "author": "Paul Armer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulllama/markdown-resume-builder/issues"
+  },
+  "homepage": "https://github.com/paulllama/markdown-resume-builder#readme",
+  "dependencies": {
+    "showdown": "^2.1.0"
+  }
+}
